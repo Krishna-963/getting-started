@@ -1,6 +1,5 @@
 # Install the base requirements for the app.
 # This stage is to support development.
-# webhook-webhook-1
 FROM --platform=$BUILDPLATFORM python:alpine AS base
 WORKDIR /app
 COPY requirements.txt .
